@@ -49,6 +49,10 @@
       "import": "./dist/types.js",
       "require": "./dist/types.cjs"
     },
+    "./worker": {
+      "import": "./dist/worker.js",
+      "require": "./dist/worker.cjs"
+    },
     "./package.json": "./package.json"
   },
   "main": "./dist/index.cjs",
@@ -90,6 +94,7 @@
     "@kubb/core": "workspace:*",
     "@kubb/parser-ts": "workspace:*",
     "execa": "^9.6.0",
+    "tinypool": "^1.1.1",
     "natural-orderby": "^5.0.0",
     "react": "catalog:react19",
     "react-devtools-core": "^6.1.5",

@@ -6,6 +6,7 @@ export default defineConfig({
     types: 'src/types.ts',
     devtools: 'src/devtools.ts',
     globals: 'src/globals.ts',
+    'worker': './src/worker.ts',
     'jsx-runtime': './src/jsx-runtime.ts',
     'jsx-dev-runtime': './src/jsx-runtime.ts',
   },
